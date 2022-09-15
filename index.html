@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WillSkill</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="container">
+        <a href="#" class="nav-bar__logo"
+          ><img src="./images/logo.svg" alt=""
+        /></a>
+        <ul id="burgerMenu" class="nav-bar__list">
+          <li class="nav-bar__list-item"><a href="#">FAQ</a></li>
+          <li class="nav-bar__list-item"><a href="#">Оплата и доставка</a></li>
+          <li class="nav-bar__list-item"><a href="#">Возврат</a></li>
+          <li class="nav-bar__list-item"><a href="#">Исследования</a></li>
+          <li class="nav-bar__list-item"><a href="#">Личный кабинет</a></li>
+          <li class="nav-bar__list-item">
+            <a href="#">8 8 (800) 600-09-90</a>
+          </li>
+        </ul>
+        <a href="#" class="nav-bar__cart" data-quantity="1">
+          <img src="./images/basket-1.svg" alt="" />
+        </a>
+        <div id="burgerBtn" class="burger">
+          <div class="burger__item burger__item1"></div>
+          <div class="burger__item burger__item2"></div>
+          <div class="burger__item burger__item3"></div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">АКТИВИРУЙ ИММУНИТЕТ!</h1>
+            <p class="hero__desc">
+              Всего пять секунд в день помогут укрепить иммунитет и повысить
+              защитные силы организма
+            </p>
+            <h3 class="hero__sub-title">NOOTRIS ПОМОГАЕТ</h3>
+            <p class="hero__sub-desc">
+              Вашему организму во время пандемии и сезонных простуд
+            </p>
+            <img src="./images/hero-image.png" alt="" class="hero__image" />
+          </div>
+        </div>
+      </section>
+      <section class="discount">
+        <div class="container">
+          <div class="discount__content">
+            <h3 class="discount__title">
+              ПОЛУЧИ ЗАЩИТУ ИММУНИТЕТА
+              <br />
+              <span>СО СКИДКОЙ -15% ПЕРВЫМ!</span>
+            </h3>
+            <div class="discount__products">
+              <div class="discount__product">
+                <div class="discount__product-ingredient">
+                  <img
+                    class="discount__product-ingredient__image"
+                    src="./images/ginger.png"
+                    alt=""
+                  />
+                  <p class="discount__product-ingredient__desc">
+                    Содержит <br />
+                    <span>имбирь</span>
+                  </p>
+                </div>
+                <div class="discount__product-main">
+                  <div class="discount__product__price">
+                    <p class="discount__product__price-before">750₽</p>
+                    <p class="discount__product__price-after">690₽</p>
+                  </div>
+                  <img
+                    class="discount__product-main__image"
+                    src="./images/nootris - card.png"
+                    alt=""
+                  />
+                  <p class="discount__product-main__desc">
+                    + Бесплатная доставка
+                    <br />
+                    <span>Специальная цена</span>
+                  </p>
+                </div>
+                <div class="discount__product-ingredient">
+                  <img
+                    class="discount__product-ingredient__image"
+                    src="./images/vorus.png"
+                    alt=""
+                  />
+                  <p class="discount__product-ingredient__desc">
+                    Нейтрализует <br />
+                    <span>вирусы</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="discount__button"> Оформить заказ! </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

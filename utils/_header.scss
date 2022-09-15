@@ -1,0 +1,78 @@
+.hero {
+  background-color: $cl-bg-yellow;
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    padding: 6rem 0;
+    @media (max-width: 1320px) {
+      padding: 6rem 1.125rem;
+    }
+    @media (max-width: 500px) {
+      padding: 4rem 1.125rem;
+    }
+  }
+  &__title {
+    font-size: clamp(2.5rem, 11vw, $fs-500);
+    line-height: 152px;
+    @media (max-width: 850px) {
+      line-height: 100%;
+    }
+  }
+  &__desc {
+    width: 55%;
+    margin-top: 1.5rem;
+    font-size: $fs-200;
+    color: $cl-black-200;
+    font-weight: 400;
+    @media (max-width: 850px) {
+      width: 70%;
+    }
+    @media (max-width: 700px) {
+      font-size: $fs-100;
+    }
+  }
+  &__sub-title {
+    margin-top: 7.5rem;
+    font-size: $fs-300;
+    color: $cl-black-200;
+    @media (max-width: 850px) {
+      margin-top: 4rem;
+    }
+    @media (max-width: 500px) {
+      margin-top: 3rem;
+      font-size: $fs-200;
+    }
+  }
+  &__sub-desc {
+    margin-top: 1rem;
+    font-size: $fs-100;
+    color: $cl-black-200;
+    width: 55%;
+
+    @media (max-width: 850px) {
+      width: 50%;
+    }
+  }
+  &__image {
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    z-index: -1;
+    @media (max-width: 1024px) {
+      width: 50%;
+      top: 30%;
+    }
+    @media (max-width: 850px) {
+      width: 45%;
+      top: 45%;
+    }
+    @media (max-width: 700px) {
+      width: 45%;
+      top: 55%;
+    }
+    @media (max-width: 500px) {
+      top: 65%;
+    }
+  }
+}
